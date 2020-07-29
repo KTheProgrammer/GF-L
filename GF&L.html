@@ -8,25 +8,25 @@
         <img class="fit-picture" src=photos/logo.png>
     </head>   
     <body>
-    <center>
-    <form>
-        <p>Which Service do you Inquire?</p>
-        <label for="flyer">Flyer:</label>
-        <input name="service" id="flyer" type="radio" value="FLYER">
-        <br>
-        <label for="logo">Logo:</label>
-        <input name="service" id="logo" type="radio" value="LOGO">
-        <br>
-        <select>
-            <option>Items To Use:</option>
-            <option>Label</option>
-            <option>Paper</option>
-            <option>Printer</option>
-        </select><br>
-    
-        <input type="button" class="button" value="Be Awesome!!!">
-    </form>
-    <hr>
+        <center>
+        <form>
+            <p>Which Service do you Inquire?</p>
+            <label for="flyer">Flyer:</label>
+            <input name="service" id="flyer" type="radio" value="FLYER">
+            <br>
+            <label for="logo">Logo:</label>
+            <input name="service" id="logo" type="radio" value="LOGO">
+            <br>
+            <select>
+                <option>Items To Use:</option>
+                <option>Label</option>
+                <option>Paper</option>
+                <option>Printer</option>
+            </select><br>
+        
+            <input type="button" class="button" value="Be Awesome!!!">
+        </form>
+        <hr>
         <h2>CONTACT</h2>
             <p><strong><i>Reach Out To Me!</i></strong></p><br>
             <p1> Bolivar, TN</p1><br>
@@ -59,6 +59,7 @@
                         <td><a href="https://twitter.com/walkin_nfavor"><img class="icon" src="photos/twitter.png" alt="twitterLogo"></a></td>
                     </tr>
                 </table>  
-    </center>    
+    </center>
+    <a href="GF&L.html">HOME</a>    
     </body>
 </html>
