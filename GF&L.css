@@ -15,8 +15,7 @@ body {
 }
 
 img.fit-picture {
-    margin-left: 35%;
-    margin-right: auto;
+    text-align: center;
 }
 
 .button {
