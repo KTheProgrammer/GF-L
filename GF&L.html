@@ -59,7 +59,7 @@
                         <td><a href="https://twitter.com/walkin_nfavor"><img class="icon" src="photos/twitter.png" alt="twitterLogo"></a></td>
                     </tr>
                 </table>  
-    </center>
-    <a href="GF&L.html">HOME</a>    
+        </center>
+        <a href="GF&L.html">HOME</a>    
     </body>
 </html>
