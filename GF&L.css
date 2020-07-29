@@ -1,0 +1,48 @@
+h1 {
+    color: blue;
+}
+
+/* p {
+    color: brown */
+}
+
+H4 {
+    background-color: blue;
+}
+
+body {
+    background: url(photos/background.png);
+}
+
+img.fit-picture {
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    width: 200px;
+    height: 30px;
+    background: #4CAF50;
+    transition: width 2s;
+}
+
+p:hover {
+width: 500px;
+}
+
+.icon {
+    height: 40px;
+}
