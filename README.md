@@ -22,6 +22,7 @@
                 <option>Label</option>
                 <option>Paper</option>
                 <option>Printer</option>
+                <option>Digital</option>
             </select><br>
         
             <input type="button" class="button" value="Be Awesome!!!">
