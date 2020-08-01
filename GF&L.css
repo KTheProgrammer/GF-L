@@ -12,6 +12,7 @@ H4 {
 
 body {
     background: url(photos/background.png);
+    text-align: center;
 }
 
 img.fit-picture {
@@ -19,16 +20,25 @@ img.fit-picture {
 }
 
 .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    text-align: center;
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+	background-color:#44c767;
+	border-radius:41px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:11px;
+	font-weight:bold;
+	padding:11px 17px;
+	text-decoration:none;
+	text-shadow:1px -4px 3px #2f6627;
+}
+.button:hover {
+	background-color:transparent;
+}
+.button:active {
+	position:relative;
+	top:1px;
 }
 
 p {
