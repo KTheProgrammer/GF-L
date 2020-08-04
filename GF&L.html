@@ -1,66 +1,162 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>GF&L</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="GF&L.css">
-        <img class="fit-picture" src=photos/logo.png>
-    </head>   
-    <body>
-        <center>
-        <form>
-            <p>Which Service do you Inquire?</p>
-            <label for="flyer">Flyer:</label>
-            <input name="service" id="flyer" type="radio" value="FLYER">
-            <br>
-            <label for="logo">Logo:</label>
-            <input name="service" id="logo" type="radio" value="LOGO">
-            <br>
-            <select>
-                <option>Items To Use:</option>
-                <option>Label</option>
-                <option>Paper</option>
-                <option>Printer</option>
-                <option>Digital</option>
-            </select><br>
-        
-            <input type="button" class="button" value="Be Awesome!!!">
-        </form>
-        <hr>
-        <h2>CONTACT</h2>
-            <p><strong><i>Reach Out To Me!</i></strong></p><br>
-            <p1> Bolivar, TN</p1><br>
-                <table>
-                    <tr>
-                        <td><img class="icon" src="photos/iphone.png" alt="iphone"></td>
-                        <td>731-609-2893</td>
-                    </tr>
-                    <tr>
-                        <td><a href="mailto:gcatkins@gmail.com"><img class="icon" src="photos/Googlemail.png" alt="Googlemail"></a></td>
-                        <td><---Email Me:</td>
-                    </tr>
-                </table>
-            <hr>
-            <form action="gcatkins@gmail.com" method="post" enctype="text/plain">
-                <label>Your Name:</label>
-                <input type="text" name="yourName" value=""><br>
-                <label>Your Email:</label>
-                <input type="email" name="yourEmail" value=""><br>
-                <label>Your Message:</label>
-                <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
-                <input type="submit" name="">
-            </form>    
-            <hr id="iconspace">
-                <table>
-                    <tr>
-                        <td><a href="https://www.facebook.com/geraldinecox.atkins"><img class="icon" src="photos/facebook.png" alt="facebookLogo"></a></td>
-                        <td><a href="https://www.instagram.com/twink_atkins/"><img class="icon" src="photos/instagram.png" alt="instagramLogo"></a></td>
-                        <td><a href="https://www.pinterest.com/mrsgatkins/"><img class="icon" src="photos/pinterest.png" alt="pinterestLogo"></a></td>
-                        <td><a href="https://twitter.com/walkin_nfavor"><img class="icon" src="photos/twitter.png" alt="twitterLogo"></a></td>
-                    </tr>
-                </table>  
-        </center>
-        <a href="GF&L.html">HOME</a>    
-    </body>
-</html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>GF&L</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/pricing/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      .icon {
+        height: 40px;
+      }
+      .tableIcon{
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body {
+    background: url(photos/background.png);
+    text-align: center;
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Geraldine Flyers & Logos</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="#">Features</a>
+    <a class="p-2 text-dark" href="#">Enterprise</a>
+    <a class="p-2 text-dark" href="#">Support</a>
+    <a class="p-2 text-dark" href="#">Pricing</a>
+  </nav>
+</div>
+<img class="fit-picture" src=photos/logo.png>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <h1 class="display-4">Flyers & Logos</h1>
+  <p class="lead">Bringing beautiful Logos and Flyers from your thought to everyone eyes.</p>
+</div>
+
+<div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Logo</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$15 <small class="text-muted"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>10 users included</li>
+          <li>2 GB of storage</li>
+          <li>Email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Let's Begin</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Flyer</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$25 <small class="text-muted"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>20 users included</li>
+          <li>10 GB of storage</li>
+          <li>Priority email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Logo & Flyer</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">$40 <small class="text-muted"></small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>30 users included</li>
+          <li>15 GB of storage</li>
+          <li>Phone and email support</li>
+          <li>Help center access</li>
+        </ul>
+        <button type="button" class="btn btn-lg btn-block btn-primary">Let's Start</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="{{ site.baseurl }}/docs/{{ site.docs_version }}/assets/brand/bootstrap-solid.svg" alt="" width="24" height="24">
+        <small class="d-block mb-3 text-muted">&copy; 2020 K The Programmer</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Cool stuff</a></li>
+          <li><a class="text-muted" href="#">Random feature</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Resource</a></li>
+          <li><a class="text-muted" href="#">Resource name</a></li>
+          <li><a class="text-muted" href="#">Another resource</a></li>
+          <li><a class="text-muted" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>About</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Locations</a></li>
+          <li><a class="text-muted" href="#">Privacy</a></li>
+          <li><a class="text-muted" href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr id="iconspace">
+    <table class="tableIcon">
+        <tr>
+            <td><a href="https://www.facebook.com/geraldinecox.atkins"><img class="icon" src="photos/facebook.png" alt="facebookLogo"></a></td>
+            <td><a href="https://www.instagram.com/twink_atkins/"><img class="icon" src="photos/instagram.png" alt="instagramLogo"></a></td>
+            <td><a href="https://www.pinterest.com/mrsgatkins/"><img class="icon" src="photos/pinterest.png" alt="pinterestLogo"></a></td>
+            <td><a href="https://twitter.com/walkin_nfavor"><img class="icon" src="photos/twitter.png" alt="twitterLogo"></a></td>
+        </tr>
+    </table>  
+  </footer>
+</div>
