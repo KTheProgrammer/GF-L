@@ -30,8 +30,19 @@
       }
 
       body {
-    background: url(photos/background.png);
-    text-align: center;
+        background: url(photos/background.png);
+        text-align: center;
+      }
+
+      .flyer-picture {
+        width: 80%;
+        margin: 20px;
+      }
+
+      .flyer-title {
+        font-family: cursive;
+        color: green;
+      }
 
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
@@ -40,7 +51,16 @@
       }
     </style>
   </head>
-  <body>
+<body>
+<!-- <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="my-0 mr-md-auto font-weight-normal">Geraldine Flyers & Logos</h5>
+  <nav class="my-2 my-md-0 mr-md-3">
+    <a class="p-2 text-dark" href="#">Features</a>
+    <a class="p-2 text-dark" href="#">Enterprise</a>
+    <a class="p-2 text-dark" href="#">Support</a>
+    <a class="p-2 text-dark" href="#">Pricing</a>
+  </nav>
+</div> -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="">Geraldine Flyers & Logos</a>
@@ -119,6 +139,73 @@
       </div>
     </div>
   </div>
+  <hr>
+  <h2 class="flyer-title">Flyers by Geraldine</h2>
+  <section id="projects">
+
+    <div id="projects-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="flyer-picture" src="projects/flyer.jpeg" alt="project">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer2.jpeg" alt="project2">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer3.jpeg" alt="project3">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer4.jpeg" alt="project4">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer5.jpeg" alt="project5">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer6.jpeg" alt="project6">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer7.jpeg" alt="project">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer8.jpeg" alt="project2">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer9.jpeg" alt="project3">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer10.jpeg" alt="project4">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer11.jpeg" alt="project5">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer12.jpeg" alt="project6">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer13.jpeg" alt="project2">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer14.jpeg" alt="project3">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer15.jpeg" alt="project4">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer16.jpeg" alt="project5">
+        </div>
+        <div class="carousel-item">
+          <img class="flyer-picture" src="projects/flyer17.jpeg" alt="project6">
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#projects-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#projects-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
+
+  </section>
 
   <footer class="pt-4 my-md-5 pt-md-5 border-top">
     <div class="row">
@@ -161,3 +248,5 @@
     </table>  
   </footer>
 </div>
+</body>
+</html>
