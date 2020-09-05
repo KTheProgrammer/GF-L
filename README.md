@@ -89,7 +89,7 @@
   </div>
 </nav>
 
-<img class="fit-picture" src=photos/logo.png>
+<img class="fit-picture" src=photos/geraldine.png>
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
   <h1 class="display-4">Flyers & Logos</h1>
   <p class="lead">Bringing beautiful Logos and Flyers from your thought to everyone eyes.</p>
