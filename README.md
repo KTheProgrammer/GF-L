@@ -22,7 +22,7 @@
       }
 
       .fit-picture {
-        height: 500px;
+        width: 50%;
       }
 
       .icon {
